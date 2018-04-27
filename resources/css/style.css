@@ -1,6 +1,21 @@
 html{
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
+  color: rgba(0,0,0,0.7);
+  line-height: 1.4;
+}
+
+h3{
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.blue{
+  color: #399bd1;
 }
 
 /* Navigation Bar Styles */
@@ -25,22 +40,24 @@ html{
   position: relative;
   top: 50px;
   text-align: center;
-
-}
-
-.jumbotron h1,p{
+  margin-bottom: 50px;
   color: white;
   text-shadow:
   -1px -1px 0 #000,
   1px -1px 0 #000,
   -1px -1px 0 #000,
   1px -1px 0 #000;
+
 }
+
+/* eader and paragraph styles */
 
 .jumbotron h1{
   font-family: Monoton;
   font-size: 7.1rem;
 }
+
+/* Button Effects*/
 
 .jumbotron .btn{
   background-color: #399bd1;
@@ -56,4 +73,20 @@ html{
 
 .jumbotron .btn:active{
   box-shadow: 0 0 0 rgba(0,0,0,0.5);
+}
+
+/* Featured project section */
+
+.featured-project h2{
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.image-container img{
+  opacity: 0.7;
+  width: 100%;
+}
+
+.categories{
+  color: #757575;
 }
