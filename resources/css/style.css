@@ -25,6 +25,10 @@ html{
   position: relative;
   top: 50px;
   text-align: center;
+
+}
+
+.jumbotron h1,p{
   color: white;
   text-shadow:
   -1px -1px 0 #000,
@@ -34,6 +38,22 @@ html{
 }
 
 .jumbotron h1{
-  font-size: 7.1rem;
   font-family: Monoton;
+  font-size: 7.1rem;
+}
+
+.jumbotron .btn{
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0,0,0,0.5);
+  width: 11.4rem;
+  padding: 1.3rem 0;
+  margin-top: 2.8rem;
+}
+
+.jumbotron .btn:hover{
+  box-shadow: 0 0 12px rgba(0,0,0,0.9);
+}
+
+.jumbotron .btn:active{
+  box-shadow: 0 0 0 rgba(0,0,0,0.5);
 }
