@@ -44,7 +44,6 @@ h4{
 /*Jumbotron */
 
 .jumbotron{
-  background: url("../images/jumbotron-bike.jpg");
   padding-top: 11.85rem;
   padding-bottom: 11.85rem;
   position: relative;
@@ -58,6 +57,34 @@ h4{
   -1px -1px 0 #000,
   1px -1px 0 #000;
 
+}
+
+.jumbotron-bike{
+  background: url("../images/jumbotron-bike.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.jumbotron-beer{
+  background: url("../images/jumbotron-beer.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.jumbotron-flowers{
+  background: url("../images/jumbotron-flowers.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.jumbotron-duffel{
+  background: url("../images/jumbotron-duffel.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* header and paragraph styles */
