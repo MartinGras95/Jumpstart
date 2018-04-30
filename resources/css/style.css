@@ -163,7 +163,7 @@ h4{
 
 .footer p{
   text-align: center;
-  width: 42rem;
+  max-width: 42rem;
   margin: 0 auto;
   padding: 1.4rem 0;
 }
